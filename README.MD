@@ -45,7 +45,7 @@ using conda :
 
 Code: [SimpleAnimation1.py](matplotlib/SimpleAnimation1.py)
 
-<img src="README.assets/Mathplotlib_animitation.gif" alt="Mathplotlib_animitation" style="zoom: 25%; float: left;" />
+<img src="README.assets/Mathplotlib_animitation.gif" alt="Mathplotlib_animitation" style="zoom: 10%; float: left;" />
 
 
 
