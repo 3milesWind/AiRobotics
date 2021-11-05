@@ -24,7 +24,7 @@ Code for Ai algorithm
 # Documentation
 1. Clone this repo.
 
-> git clone https://github.com/AtsushiSakai/PythonRobotics.git
+> git clone https://github.com/3milesWind/AiRobotics.git
 
 2. Install the required libraries.
 
