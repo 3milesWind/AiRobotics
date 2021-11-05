@@ -23,9 +23,7 @@ Code for Ai algorithm
 > > - [ ]  Stochastic Search
 > > - [ ]  Classical Search
 
-
-
 # matplotlib
 
-## Animation
+### Animation
 
