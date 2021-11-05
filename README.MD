@@ -58,7 +58,7 @@ Code: [SimpleAnimation1.py](matplotlib/SimpleAnimation1.py)
 
 > Gradient descent is a first-order iterative optimization algorithm for finding a local minimum of a differentiable function. 
 
-Example Function: $`x_1^2 + x_1 * x_2 + 3x_2^2 + 5`$ 
+Example Function: <img src="https://render.githubusercontent.com/render/math?math=x_1^2 %2B x_1 * x_2 %2B 3x_2^2 %2B 5">
 
 * With a fixed learning rate    [Code](NumericalOptimization/gradientDescentWithFixedRate.py)
 
@@ -70,7 +70,7 @@ Example Function: $`x_1^2 + x_1 * x_2 + 3x_2^2 + 5`$
 
 ### Newton Method
 
-Example Function: <img src="https://render.githubusercontent.com/render/math?math=math x_1^2 + x_1 * x_2 + 3x_2^2 + 5">
+Example Function: <img src="https://render.githubusercontent.com/render/math?math=x_1^2 %2B x_1 * x_2 %2B 3x_2^2 %2B 5">
 
 > Newton's method is a powerful technique—in general the [convergence](https://en.wikipedia.org/wiki/Rate_of_convergence) is quadratic: as the method converges on the root, the difference between the root 
 
