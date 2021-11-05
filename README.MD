@@ -74,5 +74,7 @@ Example Function: <img src="https://render.githubusercontent.com/render/math?mat
 
 > Newton's method is a powerful technique—in general the [convergence](https://en.wikipedia.org/wiki/Rate_of_convergence) is quadratic: as the method converges on the root, the difference between the root 
 
-* Pro
-* Con
+<img src="README.assets/newtwonMethod.gif" alt="newtwonMethod" width="400" height="300" style="float: left;" />
+
+* some difficulties: 
+  * Only can work on the Positive definite. 
