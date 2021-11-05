@@ -58,7 +58,7 @@ Code: [SimpleAnimation1.py](matplotlib/SimpleAnimation1.py)
 
 > Gradient descent is a first-order iterative optimization algorithm for finding a local minimum of a differentiable function. 
 
-Example Function: $x_1^2 + x_1 * x_2 + 3x_2^2 + 5$ 
+Example Function: $`x_1^2 + x_1 * x_2 + 3x_2^2 + 5`$ 
 
 * With a fixed learning rate    [Code](NumericalOptimization/gradientDescentWithFixedRate.py)
 
