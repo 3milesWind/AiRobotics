@@ -7,10 +7,8 @@ Code for Ai algorithm
 # Table of Contents
 
 * [What is this?](#What-is-this)
-
+* [Documentation](#Documentation)
 * [matplotlib](#matplotlib)
-
-
 
 # What is this?
 
@@ -22,6 +20,22 @@ Code for Ai algorithm
 >
 > > - [ ]  Stochastic Search
 > > - [ ]  Classical Search
+
+# Documentation
+1. Clone this repo.
+
+> git clone https://github.com/AtsushiSakai/PythonRobotics.git
+
+2. Install the required libraries.
+
+using conda :
+
+> conda env create -f environment.yml
+
+
+3. Execute python script in each directory.
+
+4. Add star to this repo if you like it :smiley:.
 
 # matplotlib
 
