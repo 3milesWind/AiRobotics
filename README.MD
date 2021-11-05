@@ -39,5 +39,13 @@ using conda :
 
 # matplotlib
 
+> Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python
+
 ### Animation
+
+Code: [SimpleAnimation1.py](matplotlib/SimpleAnimation1.py)
+
+<img src="README.assets/Mathplotlib_animitation.gif" alt="Mathplotlib_animitation" style="zoom:50%; float:left" />
+
+
 
