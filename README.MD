@@ -9,9 +9,14 @@ Code for Ai algorithm
 * [What is this?](#What-is-this)
 * [Documentation](#Documentation)
 * [matplotlib](#matplotlib)
+  * [Animation](###Animation)
+  * [Text the points](###Text-the-points )
+
 * [Numerical Optimization](#Numerical-Optimization)
+  * [Gradient Descent](###Gradient-Descent)
+
 * [Stochastic Search](#Stochastic-Search)
-  * [Simulated Annealing]()
+  * [Simulated Annealing](###Simulated-Annealing)
 
 
 # What is this?
@@ -52,13 +57,19 @@ Code: [SimpleAnimation1.py](matplotlib/SimpleAnimation1.py)
 
 <img src="README.assets/Mathplotlib_animitation.gif" alt="Mathplotlib_animitation" width="400" height="300" style="float: left;" />
 
+### Text the points 
 
+###  [code](matplotlib/SimpleMakeTextEachPoint.py)
+
+<img src="README.assets/Screen Shot 2021-11-09 at 1.23.43 AM.png"  width="400" height="300" style="float: left;" />
 
 # Numerical Optimization
 
 > *Numerical Optimization* presents a comprehensive and up-to-date description of the most effective methods in continuous optimization.
 
-### Gradient Descent  [Background](Docs/GradientDescent.md)
+### Gradient Descent 
+
+###  [Background](Docs/GradientDescent.md)
 
 > Gradient descent is a first-order iterative optimization algorithm for finding a local minimum of a differentiable function. 
 
@@ -85,9 +96,9 @@ Example Function: <img src="https://render.githubusercontent.com/render/math?mat
 
 # Stochastic Search 
 
-## Simulated-Annealing [code](TravellingSalesman/Simulated_Annealing.py) 
+## Simulated-Annealing 
 
-**The Travelling Salesman Problem** [Simple Presentation](TravellingSalesman/Presentation1.pptx)
+**The Travelling Salesman Problem ** [code](TravellingSalesman/Simulated_Annealing.py)   [Simple Presentation](TravellingSalesman/Presentation1.pptx) 
 
 > Simulated annealing algorithm is a random algorithm, it has a certain probability to find the global optimal solution
 
