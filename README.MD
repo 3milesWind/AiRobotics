@@ -10,6 +10,9 @@ Code for Ai algorithm
 * [Documentation](#Documentation)
 * [matplotlib](#matplotlib)
 * [Numerical Optimization](#Numerical-Optimization)
+* [Stochastic Search](#Stochastic-Search)
+  * [Simulated Annealing]()
+
 
 # What is this?
 
@@ -20,6 +23,7 @@ Code for Ai algorithm
 > CheckList:
 >
 > > - [ ]  Stochastic Search
+> > - [ ]   Do Numerical Optimization Background doc
 > > - [ ]  Classical Search
 
 # Documentation
@@ -78,3 +82,13 @@ Example Function: <img src="https://render.githubusercontent.com/render/math?mat
 
 * some difficulties: 
   * Only can work on the Positive definite. 
+
+# Stochastic Search 
+
+## Simulated-Annealing [code](TravellingSalesman/Simulated_Annealing.py) 
+
+**The Travelling Salesman Problem** [Simple Presentation](TravellingSalesman/Presentation1.pptx)
+
+> Simulated annealing algorithm is a random algorithm, it has a certain probability to find the global optimal solution
+
+<img src="README.assets/Simuted_annlea.gif" alt="Simuted_annlea" width="400" height="300" style="float: left;"  />
