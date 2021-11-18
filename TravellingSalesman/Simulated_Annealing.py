@@ -149,6 +149,10 @@ def RunTask(k,temp):
     plt.show()
 
 
+
+
+
+
 if __name__ == '__main__':
     print("Select the Annealing Schedule: \nFast Annealing: 1\n Exponential Annealing: 2\nLog Annealing: 3\n")
     # RunTask(2, 10)

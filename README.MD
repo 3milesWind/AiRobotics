@@ -11,12 +11,14 @@ Code for Ai algorithm
 * [matplotlib](#matplotlib)
   * [Animation](###Animation)
   * [Text the points](###Text-the-points )
-
 * [Numerical Optimization](#Numerical-Optimization)
   * [Gradient Descent](###Gradient-Descent)
-
+  * [Newton Method](###Newton-Method)
 * [Stochastic Search](#Stochastic-Search)
   * [Simulated Annealing](###Simulated-Annealing)
+* [Classic Search](#Classic-Search)
+  * 
+
 
 
 # What is this?
@@ -28,8 +30,8 @@ Code for Ai algorithm
 > CheckList:
 >
 > > - [ ]  Stochastic Search
-> > - [ ]   Do Numerical Optimization Background doc
-> > - [ ]  Classical Search
+> > - [x]   Numerical Optimization
+> > - [x]  Classical Search
 
 # Documentation
 1. Clone this repo.
@@ -87,12 +89,15 @@ Example Function: <img src="https://render.githubusercontent.com/render/math?mat
 
 Example Function: <img src="https://render.githubusercontent.com/render/math?math=x_1^2 %2B x_1 * x_2 %2B 3x_2^2 %2B 5">
 
+[Code](NumericalOptimization/NewtonMethod.py)
+
 > Newton's method is a powerful technique—in general the [convergence](https://en.wikipedia.org/wiki/Rate_of_convergence) is quadratic: as the method converges on the root, the difference between the root 
 
 <img src="README.assets/newtwonMethod.gif" alt="newtwonMethod" width="400" height="300" style="float: left;" />
 
 * some difficulties: 
-  * Only can work on the Positive definite. 
+  * Can not be singular matrix
+  * Derivattive can not be zeros
 
 # Stochastic Search 
 
@@ -102,4 +107,44 @@ Example Function: <img src="https://render.githubusercontent.com/render/math?mat
 
 > Simulated annealing algorithm is a random algorithm, it has a certain probability to find the global optimal solution
 
-<img src="README.assets/Simuted_annlea.gif" alt="Simuted_annlea" width="400" height="300" style="float: left;"  />
+<img src="README.assets/Simuted_annlea.gif" alt="Simuted_annlea" width="300" height="300" style="float: left;"  /><img src="README.assets/Probability.jpg" alt="Probability" width="350" height="300" style="float: left;" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Classic-Search
+
+
+
+### Depth-First Search (DFS) 
+
+> The algorithm starts at the root node (selecting some arbitrary node as the root node in the case of a graph) and explores as far as possible along each branch before backtracking.         
+
+<img src="README.assets/ezgif.com-gif-maker.gif" alt="ezgif.com-gif-maker" width="400" height="470" style="float: left;" />
+
+### Breadth-first search (BFS)
+
+> It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level. Extra memory, usually a queue is needed to keep track of the child nodes that were encountered but not yet explored.
+
+<img src="README.assets/ezgif.com-gif-maker (2)-7201204.gif" alt="ezgif.com-gif-maker (2)" width="400" height="470" style="float: left;" />
+
+### Dijkstra 
+
+> For a given source node in the graph, the algorithm finds the shortest path between that node and every other with cost
+
+<img src="README.assets/ezgif.com-gif-maker (3).gif" alt="ezgif.com-gif-maker (3)" width="400" height="470" style="float: left;" />
+
+### A*
+
+> A* is an informed search algorithm, **or a best-first search**, meaning that it is formulated in terms of weighted graphs: starting from a specific starting node of a graph, it aims to find a path to the given goal node having the smallest cost
+
+<img src="README.assets/ezgif.com-gif-maker (4).gif" alt="ezgif.com-gif-maker (4)" width="400" height="470" style="float: left;" />
