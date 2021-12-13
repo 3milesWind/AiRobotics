@@ -4,7 +4,9 @@
 
 Code for Ai algorithm 
 
-# Table of Contents
+# Re-design the Repo to the link: https://github.com/3milesWind/Seach_and_Optimization
+
+# Table of Contentsdesign
 
 * [What is this?](#What-is-this)
 * [Documentation](#Documentation)
