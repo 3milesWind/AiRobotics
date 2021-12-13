@@ -4,7 +4,7 @@
 
 Code for Ai algorithm 
 
-# Re-design the Repo to the link: https://github.com/3milesWind/Seach_and_Optimization
+# Re-design the Repo to the link: https://github.com/3milesWind/Search_and_Optimization
 
 # Table of Contentsdesign
 
